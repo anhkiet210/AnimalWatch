@@ -14,6 +14,7 @@ const Home = () => {
                         <div className="search-animal">
                             <select className="search-animal__select">
                                 <option>Tiếng Việt</option>
+                                <option>Tên khoa học</option>
                             </select>
                             <input type="text" className="search-animal__ip-text" />
                             <button className="search-animal__btn"><i className="fa-solid fa-magnifying-glass"></i></button>
