@@ -1,0 +1,14 @@
+@import '../../../sass/variable.scss';
+
+.header{
+    height: 60px;
+    background-color: $header-color;
+
+    &__title{
+        font-size: 2rem;
+        line-height: 60px;
+        color: $white-color;
+        text-shadow: 2px 5px 6px #00000052;
+        font-weight: 700;
+    }
+}

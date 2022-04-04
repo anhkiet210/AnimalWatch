@@ -1,0 +1,42 @@
+@import '../../sass/variable.scss';
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .search{
+        height: 50px;
+        display: flex;
+
+        &__input{
+            width: 100%;
+            height: 100%;
+            border-radius: 6px 0px 0px 6px;
+            padding: 10px;
+        }
+
+        &__btn{
+            width: 100%;
+            height: 100%;
+            border-radius: 0px 6px 6px 0px;
+            outline: none;
+            border: none;
+            background: none;
+            background-color: $primary-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: $text-color;
+            cursor: pointer;
+
+            &:hover{
+                opacity: 0.9;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,97 @@
+@import '../../sass/variable.scss';
+
+.wraper{
+    background-color: $bg-light;
+
+    .title{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $text-color;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .search-animal{
+        height: 48px;
+        width: 100%;
+
+        &__select{
+            height: 100%;
+            width: 15%;
+            padding: 10px 0px 10px 10px;
+            border-radius: 6px 0px 0px 6px;
+            background-color: $primary-color;
+        }
+
+        &__ip-text{
+            height: 100%;
+            width: 75%;
+            padding: 10px;
+        }
+
+        &__btn{
+            height: 100%;
+            width: 10%;
+            border-radius: 0px 6px 6px 0px;
+            background-color: $primary-color;
+            border: none;
+            outline: none;
+            font-size: 1.2rem;
+            color: $white-color;
+            cursor: pointer;
+
+            &:hover{
+                opacity: 0.9;
+            }
+        }
+    }
+
+    .wrap-list-animal{
+        background-color: $bg-gray;
+        width: 100%;
+        border-radius: 6px;
+        overflow: hidden;
+        margin-top: 20px;
+
+        &__title{
+            height: 77px;
+            background-color: $primary-color;
+            color: $white-color;
+            font-size: 1rem;
+            line-height: 37px;
+            padding: 20px;
+        }
+
+        &__alphabet{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 10px;
+            flex-wrap: wrap;
+
+            .alphabet-item{
+                width: 25px;
+                height: 25px;
+                background-color: $primary-color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 6px;
+                text-transform: uppercase;
+                cursor: pointer;
+                color: $white-color;
+
+                &:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+
+        .list-animal{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+}
